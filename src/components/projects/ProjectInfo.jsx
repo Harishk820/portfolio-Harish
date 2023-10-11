@@ -32,16 +32,16 @@ const ProjectInfo = ({ projectName, projectDescription, projectTechHeading, proj
 
 				{/* Single project social Links */}
 
-				<div className="flex justify-between gap-3 mt-5 mb-5">
+				<div className=" flex justify-between  px-6 mt-3 mb-5">
 					{
 						projectLinks.map((social) => {
 							return (
 								<a key={social.id} href={social.url} target="__blank" aria-label="Share Project"
 									className="bg-ternary-light dark:bg-ternary-dark text-gray-400
 										 hover:text-primary-dark dark:hover:text-primary-light
-										  p-2 rounded-lg shadow-sm duration-500"
+										  p-2  rounded-lg shadow-sm duration-500"
 								>
-									<span className="text-lg lg:text-2xl">
+									<span className="text-lg  lg:text-2xl">
 										{social.icon}
 									</span>
 								</a>
