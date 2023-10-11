@@ -6,7 +6,7 @@ function AppFooterCopyright() {
 		<div className="font-general-regular flex justify-center items-center text-center">
 			<div className="text-lg text-ternary-dark dark:text-ternary-light">
 				&copy; {new Date().getFullYear()}
-				<a href="https://www.linkedin.com/in/harish-kumar-0b61b3114/" target="__blank"
+				<a href="https://github.com/Harishk820/portfolio-Harish" target="__blank"
 					className="hover:underline hover:text-indigo-600 dark:hover:text-indigo-300 ml-1 duration-500">
 					Harish Portfolio
 				</a>
